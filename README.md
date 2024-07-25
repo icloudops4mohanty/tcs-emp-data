@@ -106,7 +106,12 @@ mysql --version
     -> pri_skill varchar(20),
     -> location varchar(20));
 
-	   
+ - show tables;
+
+ - git clone < github repo url >
+ - cd < repo >
+   
+ 
 For python and related frameworks
 
 ```sh
@@ -115,6 +120,11 @@ apt-get install python3-flask -y
 apt-get install python3-pymysql
 apt-get install python3-boto3 -y
 ```
+
+
+vi config.py
+
+(change it)
 
 For running application
 
