@@ -65,7 +65,12 @@ create bucket
 
 create EC2-instance
 
-
+ - ami  =  ubuntu-22
+ - instance types  =  t2.micro
+ - subnet  =  based on rds ( subnet )
+ - sg  =  tcs-sg
+ - keypair  =  mykey.ppk
+ - 
 # For Ubuntu use:
 
 ```sh
