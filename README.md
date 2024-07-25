@@ -79,13 +79,21 @@ create IAM role
  - AWS service  =  ec2
  - Add permissions  =  AdministratorAccess
  - go to ec2 an attach this new role with instance
-# For Ubuntu use:
+
+
+### Step-7
+
+connect instance
 
 ```sh
 sudo su -
 apt-get update
-apt-get install mysql-client -y
+apt-get install git mysql-client -y
+mysql --version
 ```
+
+ - mysql -h < rds-endpoint > -u admin -p
+ - (mention password)
 	   
 For python and related frameworks
 
