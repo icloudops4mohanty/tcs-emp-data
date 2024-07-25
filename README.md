@@ -29,7 +29,28 @@ create route table
 
  - rename main route table as  =  tcs-pub-rt
  - mention subnets and attach internet gateway
+   
 
+### Step-2
+
+create RDS database
+
+ - Standard create
+ - Engine type  =  mysql
+ - Templates  =  freetier
+ - Master username  =  admin
+ - Auto generate password
+ - Virtual private cloud (VPC)  =  tcs-vpc
+ - Public access  =  yes
+ - Existing VPC security groups  = tcs-sg
+
+
+### Step-3
+
+create Dynamodb table
+
+ - table name  =  employee_image_table
+ - primary key  =  empid
 
 
 # For Ubuntu use:
