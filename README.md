@@ -126,8 +126,17 @@ vi config.py
 
 (change it)
 
+### Step-8 
+
 For running application
 
 ```sh
 python3 EmpApp.py
 ```
+### Step-9
+
+Create hosted zone
+
+##### ( access now using domain )
+
+=================end===================
