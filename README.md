@@ -70,7 +70,15 @@ create EC2-instance
  - subnet  =  based on rds ( subnet )
  - sg  =  tcs-sg
  - keypair  =  mykey.ppk
- - 
+
+
+### Step-6
+
+create IAM role
+
+ - AWS service  =  ec2
+ - Add permissions  =  AdministratorAccess
+ - go to ec2 an attach this new role with instance
 # For Ubuntu use:
 
 ```sh
