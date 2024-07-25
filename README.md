@@ -1,5 +1,13 @@
 # aws-project👍😎
 
+### Step-1
+
+create vpc
+
+ - name = tcs-vpc
+ - ip = 20.20.0.0/16
+ - enable DNS hostname
+
 
 # For Ubuntu use:
 
