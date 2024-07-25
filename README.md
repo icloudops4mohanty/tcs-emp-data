@@ -94,6 +94,11 @@ mysql --version
 
  - mysql -h < rds-endpoint > -u admin -p
  - (mention password)
+
+ - create database tcs_employee;
+ - show databases;
+ - use tcs_employee;
+ - 
 	   
 For python and related frameworks
 
