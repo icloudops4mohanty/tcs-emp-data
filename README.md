@@ -53,6 +53,19 @@ create Dynamodb table
  - primary key  =  empid
 
 
+### Step-4
+
+create bucket
+
+ - name  =  tcs-employee-bucket
+ - versioning  =  enable
+
+
+### Step-5
+
+create EC2-instance
+
+
 # For Ubuntu use:
 
 ```sh
