@@ -98,7 +98,14 @@ mysql --version
  - create database tcs_employee;
  - show databases;
  - use tcs_employee;
- - 
+
+ - create table employee(
+    -> empid varchar(20),
+    -> fname varchar(20),
+    -> lname varchar(20),
+    -> pri_skill varchar(20),
+    -> location varchar(20));
+
 	   
 For python and related frameworks
 
